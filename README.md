@@ -5,9 +5,8 @@ This repository contains the implementation of HyperAugment, a generative featur
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
-- [Training](#training)
-- [Evaluation](#evaluation)
+- [Pretraining](#training)
+- [Training & Evaluation](#training&evaluation)
 
 
 ## Installation
@@ -15,3 +14,14 @@ To install the necessary dependencies, run:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Pretraining
+```bash
+python hypergcn_cvae_generate_coauthorcora.py
+```
+
+## Training & Evaluation
+```bash
+python lahypergcn_coauthorshipcora_hid64.py
+```
