@@ -1,6 +1,6 @@
 # Dataset Information
 
-This repository includes the following representative hypergraph datasets used in our study:
+This repository includes the following representative hypergraph datasets used in our study.
 
 ## 1. Cora Dataset
 - **Link**: [Cora](https://relational.fel.cvut.cz/dataset/CORA)
