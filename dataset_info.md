@@ -1,10 +1,10 @@
 # Dataset Information
 
-This repository includes the following datasets:
+This repository includes the following representative hypergraph datasets used in our study:
 
 ## 1. Cora Dataset
 - **Link**: [Cora](https://relational.fel.cvut.cz/dataset/CORA)
-- **Description**: The Cora dataset is a widely used benchmark for research in machine learning and graph theory. It consists of 2,708 scientific papers classified into 7 categories: Neural Networks, Genetic Algorithms, Probabilistic Methods, Reinforcement Learning, and others. Each paper is represented as a bag-of-words vector, and the dataset also includes citation links, allowing for the exploration of citation networks. It is commonly used for tasks such as node classification and graph-based learning.
+- **Description**: The Cora dataset is a widely used benchmark dataset for research in graph/hypergraph learning. It consists of 2,708 scientific papers classified into 7 categories: Neural Networks, Genetic Algorithms, Probabilistic Methods, Reinforcement Learning, and others. Each paper is represented as a bag-of-words vector, and the co-citation relations are represented as hyperedges. It is commonly used for tasks such as node classification and graph/hypergraph-based learning.
 
 ## 2. CA-Cora Dataset
 - **Link**: [CA-Cora](https://people.cs.umass.edu/~mccallum/data.html)
@@ -16,12 +16,12 @@ This repository includes the following datasets:
 
 ## 4. 20Newsgroups Dataset
 - **Link**: [20Newsgroups](https://archive.ics.uci.edu/dataset/113/twenty+newsgroups)
-- **Description**: The 20Newsgroups dataset is a collection of approximately 20,000 newsgroup documents, organized into 20 different newsgroups. It is widely used for text classification and clustering tasks.
+- **Description**: The 20Newsgroups dataset a collection newsgroup documents, where the nodes demote the documentations, and the hyperedges refer to the co-occurrence relationship. This dataset is widely used for text classification and clustering tasks. In 20Newsgroups, the node features are the TF-IDF representations of news messages.
 
 ## 5. House Committees Dataset
 - **Link**: [HouseCommittees](https://gitlab.com/easy-graph/easygraph-data-house-committees)
-- **Description**: This dataset contains structural information about the committees of the U.S. House of Representatives, suitable for social network analysis and graph theory research. It provides data on the relationships and interactions among committee members.
+- **Description**: This dataset is a collaboration networks, which contains structural information about the committees of the U.S. House of Representatives, suitable for social network analysis.
 
 ## 6. Senate Bills Dataset
 - **Link**: [SenateBills](https://gitlab.com/easy-graph/easygraph-data-senate-committees)
-- **Description**: This dataset includes information related to U.S. Senate bills, suitable for political network analysis and bill propagation studies. It contains data on bill texts, voting records, and more.
+- **Description**: This dataset is built on the relationships between senators regarding the support of various legislative bills. It is suitable for political network analysis and bill propagation studies.
