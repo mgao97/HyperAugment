@@ -19,9 +19,9 @@ This repository includes the following datasets:
 - **Description**: The 20Newsgroups dataset is a collection of approximately 20,000 newsgroup documents, organized into 20 different newsgroups. It is widely used for text classification and clustering tasks.
 
 ## 5. House Committees Dataset
-- **Link**: [House Committees](https://gitlab.com/easy-graph/easygraph-data-house-committees)
+- **Link**: [HouseCommittees](https://gitlab.com/easy-graph/easygraph-data-house-committees)
 - **Description**: This dataset contains structural information about the committees of the U.S. House of Representatives, suitable for social network analysis and graph theory research. It provides data on the relationships and interactions among committee members.
 
 ## 6. Senate Bills Dataset
-- **Link**: [Senate Bills](https://gitlab.com/easy-graph/easygraph-data-senate-committees)
+- **Link**: [SenateBills](https://gitlab.com/easy-graph/easygraph-data-senate-committees)
 - **Description**: This dataset includes information related to U.S. Senate bills, suitable for political network analysis and bill propagation studies. It contains data on bill texts, voting records, and more.
