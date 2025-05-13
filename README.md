@@ -1,7 +1,7 @@
 # HyperAugment
 
 ## Overview
-This repository contains the implementation of HyperAugment, a generative feature augmentation model for HGNNs. This model is designed to improve HGNNs' performance.
+This repository contains the implementation of HyperAugment, a generative feature augmentation model for HNNs. This model is designed to improve HNNs' performance.
 
 ## Table of Contents
 - [Installation](#installation)
