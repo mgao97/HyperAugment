@@ -12,8 +12,6 @@ from sklearn.metrics import f1_score
 
 
 
-
-
 def normalize_hypergraph_adj(hg):
     """
     Symmetrically normalize hypergraph adjacency matrix.
