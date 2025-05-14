@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ## Pretraining
 ```bash
-python Hyperaugment_cvae_pretrain.py
+python hyperaugment_cvae_pretrain.py
 python hyperaugment_cvae_generate.py
 ```
 
