@@ -18,10 +18,11 @@ pip install -r requirements.txt
 
 ## Pretraining
 ```bash
-python hypergcn_cvae_generate_coauthorcora.py
+python Hyperaugment_cvae_pretrain.py
+python hyperaugment_cvae_generate.py
 ```
 
 ## Training & Evaluation
 ```bash
-python lahypergcn_coauthorshipcora_hid64.py
+python hyperaugment_main.py
 ```
