@@ -8,12 +8,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 import os
 
-import hypergcn_cvae_pretrain_new_coauthorcora
-import hgnn_cvae_pretrain_new_coauthorcora
-import unigcn_cvae_pretrain_coauthorshipcora
-import unisage_cvae_pretrain_coauthorshipcora
-import unigin_cvae_pretrain_coauthorshipcora
-import unigat_cvae_pretrain_coauthorshipcora
+import hyperaugment_cvae_pretrain
 
 from utils import load_data, accuracy, normalize_adj, normalize_features, sparse_mx_to_torch_sparse_tensor
 from models import *
@@ -198,7 +193,6 @@ else:
     raise ValueError(f"Model {args.model} not supported")
 
 # save model
-cvae_augmented_featuers, cvae_model = hypergcn_cvae_pretrain_new_coauthorcora.get_augmented_features(args, hg, X, labels, idx_train, features_normalized, device)
 torch.save(cvae_model,model_path)
 print(f"CVAE model saved to {model_path}")
 
